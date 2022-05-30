@@ -19,3 +19,5 @@ ENV LIBRARY_PATH=/src/ldc2-1.7.0-linux-x86_64/lib
 
 RUN git clone --recursive https://github.com/biod/sambamba.git && \
   cd sambamba && make && make check
+
+ENV PATH=/src/sambamba/bin:$PATH
