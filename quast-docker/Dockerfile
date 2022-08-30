@@ -11,3 +11,5 @@ SHELL ["conda", "run", "-n", "env", "/bin/bash", "-c"]
 
 RUN echo "source activate env" > ~/.bashrc
 ENV PATH /opt/conda/envs/env/bin/:$PATH
+
+RUN quast-download-gridss
