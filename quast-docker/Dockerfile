@@ -13,3 +13,5 @@ RUN echo "source activate env" > ~/.bashrc
 ENV PATH /opt/conda/envs/env/bin/:$PATH
 
 RUN quast-download-gridss
+RUN quast-download-silva
+RUN quast-download-busco
