@@ -7,3 +7,4 @@ dependencies:
    - circos
    - gridss
    - r
+   - red
